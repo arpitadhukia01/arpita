@@ -1,0 +1,20 @@
+a=2
+b=4
+print("addition(2+4):",a+b)
+
+a=10
+b=13
+print("subtraction(10-13):",a-b)
+
+num1=int(input("enter first number:"))
+num2=int(input("enter second number:"))
+total=num1*num2
+print(f"the sum is{total}")
+
+a=3
+b=6
+print("standard division(3/6):",a/b)
+
+a=15
+b=4
+print("floor division(15//4):",a//b)
