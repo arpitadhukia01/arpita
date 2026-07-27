@@ -1,0 +1,38 @@
+mrp=float(input("enter mrp of book:"))
+discount=0
+if mrp>=1000:
+    discount=mrp*10/100
+else:
+    discount=mrp*5/100
+    net=mrp-discount
+    print(f"mrp={mrp}and discount={discount}and net price ={net}")
+
+    cost_price= float(input("enter cost price:"))
+    sale_price= float(input("enter sale price:"))
+    if sale_price <= cost_price:
+        loss=cost_price-sale_price
+        print(f"loss={loss}")
+    else:
+        profit=sale_price-cost_price
+        print(f"profit={profit}")
+
+num1=float(input("enter first number:"))
+num2=float(input("enter second number:"))
+if num1>num2:
+   print(f"{num1} is greater")
+else:
+   print(f"{num2} is greater")
+
+
+num=int(input("enter a number:"))
+if num % 2 == 0:
+    print("even number")
+else:
+    print("odd number")
+
+num=int(input(" enter a number:"))
+if num>=0:
+   print(f"{num} is positive")
+else:
+    print(f"{num} is negative:")
+
