@@ -1,0 +1,34 @@
+day=int(input("Enter day of the week(1-7):"))
+if day==1:
+    print("monday")
+elif day==2:
+    print("tuesday")
+elif day==3:
+    print("wednesday")
+elif day==4:
+    print("thursday")
+elif day==5:
+    print("friday")
+elif day==6:
+    print("saturday")
+elif day==7:
+    print("sunday")
+else:
+ print("invalid day")  
+
+
+ digit=int(input("enter a digit:"))
+ if digit == 0:
+     print("zero")
+ elif digit == 1:
+     print("one")
+ elif digit == 2:
+     print("two")
+ elif digit == 3:
+    print("three")
+ elif digit == 4:
+     print("four")
+ else:
+     print("invalid digit")
+
+
